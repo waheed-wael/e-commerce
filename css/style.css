@@ -269,8 +269,8 @@ ol {
 
 .header__top__left ul li:after {
 	position: absolute;
-	right: 136px;
-	top: 1px;
+	right: 163px;
+    top: 9px;
 	height: 20px;
 	width: 1px;
 	background: #000000;
@@ -280,11 +280,10 @@ ol {
 }
 
 .fa{
-	padding: 13px
+	padding: 8px;
 }
 .fa-navicon:before,.fa-reorder:before,.fa-bars:before{
 	position: relative;
-    right: -68px;
 }
 
 .header__top__left ul li:last-child {
@@ -314,7 +313,7 @@ ol {
 .header__top__right__social:after {
 	position: absolute;
 	right: -20px;
-	top: 1px;
+	top: 10px;
 	height: 20px;
 	width: 1px;
 	background: #000000;
@@ -680,6 +679,7 @@ ol {
 	padding-left: 18px;
 	padding-top: 11px;
 	position: relative;
+	padding-right: 37px;
 }
 
 .hero__search__form form .hero__search__categories:after {
@@ -986,7 +986,7 @@ ol {
 
 .latest-product__slider.owl-carousel .owl-nav {
 	position: absolute;
-	right: 20px;
+	right: 262px;
 	top: -75px;
 }
 
@@ -3112,6 +3112,27 @@ ol {
 		font-size: 18px;
 		color: #1c1c1c;
 	}
+	.hero__categories__all:after {
+		position: absolute;
+		right: 595px;
+		top: 8px;
+		content: "3";
+		font-family: "ElegantIcons";
+		font-size: 30px;
+		color: #e6dddd;
+	}
+	.hero__categories__all span {
+		font-size: 26px;
+		font-weight: 700;
+		color: #ffffff;
+		position: relative;
+		right: 5px;
+		top: -1px;
+	}
+	.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+		position: relative;
+		font-size: 23px;
+	}
 	.humberger__menu__cart ul li a span {
 		height: 13px;
 		width: 13px;
@@ -3182,10 +3203,12 @@ ol {
 		border-radius: 0;
 		background: transparent;
 		color: #7fad39;
+		padding-left: 33px;
 	}
 	.humberger__menu__wrapper .slicknav_nav .slicknav_row,
 	.humberger__menu__wrapper .slicknav_nav a {
 		padding: 8px 0;
+		padding-left: 33px;
 	}
 	.humberger__menu__overlay {
 		position: fixed;
@@ -3243,6 +3266,24 @@ ol {
 		float: left;
 		margin-top: 30px;
 	}
+	.footer__widget ul li a {
+		padding: 0px 8px
+	}
+
+	.hero__categories__all:after{
+		right: 439px;
+    top: 12px;
+	}
+
+	.hero__categories__all span{
+		right: -1px;
+		top: -2px;
+		font-size: 23px;
+	}
+
+	.fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+		font-size: 22px;
+	}
 	.categories__slider.owl-carousel .owl-nav {
 		text-align: center;
 		margin-top: 40px;
@@ -3254,7 +3295,7 @@ ol {
 		-webkit-transform: translateY(0);
 	}
 	.categories__slider.owl-carousel .owl-nav button.owl-next {
-		right: -10px;
+		right: 19px;
 	}
 	.footer__copyright {
 		text-align: center;
@@ -3329,7 +3370,7 @@ ol {
 	}
 	.humberger__menu__wrapper.show__humberger__menu__wrapper {
 		opacity: 1;
-		left: 0;
+		left: 76px;
 	}
 	.humberger__menu__logo {
 		margin-bottom: 30px;
@@ -3484,6 +3525,11 @@ ol {
 /* Small Device = 320px */
 
 @media only screen and (max-width: 479px) {
+
+	body{
+		text-align: center;
+		
+	}
 	.hero__search__form form .hero__search__categories {
 		display: none;
 	}
@@ -3530,7 +3576,40 @@ ol {
 	}
 }
 
+@media only screen and (max-width: 391px){
+.humberger__menu__wrapper.show__humberger__menu__wrapper {
+    opacity: 1;
+    left: 190px;
+}
+}
 
+@media screen and (max-width:378px){
+	
+
+
+.humberger__menu__wrapper.show__humberger__menu__wrapper {
+    opacity: 1;
+    left: 214px;
+}
+
+.humberger__menu__overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	content: "";
+	z-index: 98;
+	visibility: hidden;
+	-webkit-transition: all, 0.6s;
+	-moz-transition: all, 0.6s;
+	-ms-transition: all, 0.6s;
+	-o-transition: all, 0.6s;
+	transition: all, 0.6s;
+}
+	
+}
 
 
 
@@ -3545,10 +3624,12 @@ ol {
 
 	.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
 		right: 0;
+		top: -3px;
+    font-size: 22px;
 	}
 	
 	.hero__categories__all span{
-		right: -134px;
+		
     font-size: 31px;
     top: -3px;
 	}
