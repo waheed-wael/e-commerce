@@ -129,7 +129,7 @@ ol {
 	right: 0;
 	height: 4px;
 	width: 80px;
-	background: #7fad39;
+	background: #29b193;
 	content: "";
 	margin: 0 auto;
 }
@@ -167,7 +167,7 @@ ol {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 700;
-	background: #7fad39;
+	background: #29b193;
 	letter-spacing: 2px;
 }
 
@@ -178,7 +178,7 @@ ol {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 13px 30px 12px;
-	background: #7fad39;
+	background: #29b193;
 	border: none;
 }
 
@@ -251,7 +251,7 @@ ol {
 -----------------------*/
 
 .header__top {
-		background: #7fad39;
+		background: #29b193;
 }
 
 .header__top__left {
@@ -269,8 +269,8 @@ ol {
 
 .header__top__left ul li:after {
 	position: absolute;
-	right: 163px;
-    top: 9px;
+	right: 152px;
+    top: 5px;
 	height: 20px;
 	width: 1px;
 	background: #000000;
@@ -312,8 +312,8 @@ ol {
 
 .header__top__right__social:after {
 	position: absolute;
-	right: -20px;
-	top: 10px;
+	right: -19px;
+    top: 5px;
 	height: 20px;
 	width: 1px;
 	background: #000000;
@@ -458,7 +458,7 @@ ol {
 }
 
 .header__menu ul li .header__menu__dropdown li:hover>a {
-	color: #7fad39;
+	color: #29b193;
 }
 
 .header__menu ul li .header__menu__dropdown li a {
@@ -469,7 +469,7 @@ ol {
 }
 
 .header__menu ul li.active a {
-	color: #7fad39;
+	color: #29b193;
 }
 
 .coco{
@@ -484,7 +484,7 @@ ol {
 }
 
 .header__menu ul li:hover>a {
-	color: #7fad39;
+	color: #29b193;
 }
 
 .header__menu ul li:last-child {
@@ -539,7 +539,7 @@ ol {
 .header__cart ul li a span {
 	height: 13px;
 	width: 13px;
-	background: #7fad39;
+	background: #29b193;
 	font-size: 10px;
 	color: #ffffff;
 	line-height: 13px;
@@ -603,7 +603,7 @@ ol {
 }
 
 .hero__categories__all {
-	background: #7fad39;
+	background: #29b193;
 	position: relative;
 	padding: 10px 25px 10px 40px;
 	cursor: pointer;
@@ -620,7 +620,7 @@ ol {
 	font-weight: 700;
 	color: #ffffff;
 	position: relative;
-    right: -63px;
+	right: -30px;
     top: -1px;
 }
 
@@ -725,7 +725,7 @@ ol {
 
 .hero__search__phone__icon {
 	font-size: 18px;
-	color: #7fad39;
+	color: #29b193;
 	height: 50px;
 	width: 50px;
 	background: #f5f5f5;
@@ -764,7 +764,7 @@ ol {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 4px;
-	color: #7fad39;
+	color: #29b193;
 }
 
 .hero__text h2 {
@@ -866,7 +866,7 @@ ol {
 	bottom: -2px;
 	width: 100%;
 	height: 2px;
-	background: #7fad39;
+	background: #29b193;
 	content: "";
 	opacity: 0;
 }
@@ -914,8 +914,8 @@ ol {
 }
 
 .featured__item__pic__hover li:hover a {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #29b193;
+	border-color: #29b193;
 }
 
 .featured__item__pic__hover li:hover a i {
@@ -1186,6 +1186,10 @@ ol {
 	cursor: pointer;
 }
 
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before{
+	left: 2px;
+}
+
 .price-range-wrap .price-range .ui-slider-range {
 	background: #dd2222;
 	border-radius: 0;
@@ -1297,6 +1301,11 @@ ol {
 	width: 100%;
 }
 
+#dd{
+	position: relative;
+	right: -28px;
+}
+
 .product__discount__item:hover .product__discount__item__pic .product__item__pic__hover {
 	bottom: 20px;
 }
@@ -1345,8 +1354,8 @@ ol {
 }
 
 .product__item__pic__hover li:hover a {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #29b193;
+	border-color: #29b193;
 }
 
 .product__item__pic__hover li:hover a i {
@@ -1544,7 +1553,7 @@ ol {
 }
 
 .filter__option span:hover {
-	color: #7fad39;
+	color: #29b193;
 }
 
 .product__item {
@@ -1585,8 +1594,8 @@ ol {
 }
 
 .product__item__pic__hover li:hover a {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #29b193;
+	border-color: #29b193;
 }
 
 .product__item__pic__hover li:hover a i {
@@ -1667,8 +1676,8 @@ ol {
 
 .product__pagination a:hover,
 .blog__pagination a:hover {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #29b193;
+	border-color: #29b193;
 	color: #ffffff;
 }
 
@@ -2196,8 +2205,8 @@ ol {
 }
 
 .checkout__input__checkbox label input:checked~.checkmark {
-	background: #7fad39;
-	border-color: #7fad39;
+	background: #29b193;
+	border-color: #29b193;
 }
 
 .checkout__input__checkbox label input:checked~.checkmark:after {
@@ -2430,7 +2439,7 @@ ol {
 }
 
 .blog__sidebar__item ul li a:hover {
-	color: #7fad39;
+	color: #29b193;
 }
 
 .blog__sidebar__search {
@@ -2652,7 +2661,7 @@ ol {
 }
 
 .blog__details__widget .blog__details__social a:hover {
-	color: #7fad39;
+	color: #29b193;
 }
 
 .blog__details__widget .blog__details__social a:last-child {
@@ -2664,7 +2673,7 @@ ol {
 -----------------------*/
 
 .footer {
-	background: #F3F6FA;
+	background: #29b193;
 	padding-top: 70px;
 	padding-bottom: 0;
 }
@@ -2781,7 +2790,7 @@ ol {
 }
 
 .footer__widget .footer__widget__social a:hover {
-	background: #7fad39;
+	background: #29b193;
 	color: #ffffff;
 	border-color: #ffffff;
 }
@@ -2819,7 +2828,7 @@ ol {
 
 .contact__widget span {
 	font-size: 36px;
-	color: #7fad39;
+	color: #29b193;
 }
 
 .contact__widget h4 {
@@ -2858,7 +2867,7 @@ ol {
 
 .map .map-inside i {
 	font-size: 48px;
-	color: #7fad39;
+	color: #29b193;
 	position: absolute;
 	bottom: -75px;
 	left: 50%;
@@ -3132,11 +3141,12 @@ ol {
 	.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
 		position: relative;
 		font-size: 23px;
+		
 	}
 	.humberger__menu__cart ul li a span {
 		height: 13px;
 		width: 13px;
-		background: #7fad39;
+		background: #29b193;
 		font-size: 10px;
 		color: #ffffff;
 		line-height: 13px;
@@ -3202,7 +3212,7 @@ ol {
 		-webkit-border-radius: 0;
 		border-radius: 0;
 		background: transparent;
-		color: #7fad39;
+		color: #29b193;
 		padding-left: 33px;
 	}
 	.humberger__menu__wrapper .slicknav_nav .slicknav_row,
@@ -3416,7 +3426,7 @@ ol {
 	.humberger__menu__cart ul li a span {
 		height: 13px;
 		width: 13px;
-		background: #7fad39;
+		background: #29b193;
 		font-size: 10px;
 		color: #ffffff;
 		line-height: 13px;
@@ -3482,7 +3492,7 @@ ol {
 		-webkit-border-radius: 0;
 		border-radius: 0;
 		background: transparent;
-		color: #7fad39;
+		color: #29b193;
 	}
 	.humberger__menu__wrapper .slicknav_nav .slicknav_row,
 	.humberger__menu__wrapper .slicknav_nav a {
@@ -3641,8 +3651,8 @@ ol {
 
 	#dd{
 		position: relative;
-		top: -4px;
-    right:-139px;
+		
+    right:-105px;
 		font-size: 20px;
 	}
 	.categories__slider.owl-carousel .owl-nav button.owl-next {
