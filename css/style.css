@@ -1447,7 +1447,7 @@ ol {
 }
 
 .product__discount__slider.owl-carousel .owl-dots button:last-child {
-	margin-right: 0;
+	margin-right: 10px;
 }
 
 .filter__item {
@@ -1683,7 +1683,7 @@ ol {
 
 .product__pagination a:last-child,
 .blog__pagination a:last-child {
-	margin-right: 0;
+	margin-right: 18px;
 }
 
 /*---------------------
