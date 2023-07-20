@@ -3621,6 +3621,11 @@ ol {
 	
 }
 
+.hero__categories__all:after {
+    right: 431px;
+}
+
+
 
 
 
@@ -3677,4 +3682,5 @@ ol {
 	.row{
 		text-align: center;
 	}
+	
 }
