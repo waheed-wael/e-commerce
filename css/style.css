@@ -3627,7 +3627,7 @@ ol {
 
 
 
-@media screen and (max-width:588px) {
+@media screen and (max-width:586px) {
 	.footer__about {
 		text-align-last: center;
 	} 
@@ -3638,6 +3638,9 @@ ol {
     font-size: 22px;
 	}
 	
+	.latest-product__slider.owl-carousel .owl-nav{
+		right: 315px;
+	}
 	.hero__categories__all span{
 		
     font-size: 31px;
